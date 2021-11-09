@@ -1,0 +1,8 @@
+version: '3.2'
+services:
+    apache:
+       container_name: ashish
+       build:
+         context: .
+       ports:
+         - '81:80'
